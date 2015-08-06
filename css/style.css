@@ -79,6 +79,7 @@ li {
   letter-spacing: 5px;
   line-height: 1.8em;
   display: block;
+  border-bottom: 5px solid deeppink;
 }
 
 li:first-of-type {
@@ -87,6 +88,7 @@ li:first-of-type {
   width: 600px;
   padding: 30px 80px;
   line-height: 1.6em;
+  border-bottom: none;
 }
 
 a {
@@ -112,7 +114,7 @@ a:hover {
   padding: 20px;
   border: 5px solid green;
   overflow: scroll;
-  width: 300px;
+  width: 900px;
   float: left;
 }
 
