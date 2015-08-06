@@ -143,20 +143,10 @@ a:hover {
   float: left;
 }
 
-/*
-.left {
-  float: left;
-  width: 600px;
-}
-
-.right {
-  float: right;
-  width: 600px;
-}
-*/
 h1 {
   font-family: "Fredoka One", cursive;
   font-size: 2em;
+  letter-spacing: 2px;
 }
 
 p {
