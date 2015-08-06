@@ -1,0 +1,63 @@
+/* ------------------------------------------------------------------------------ *\
+   BORDER RADIUS
+\* ------------------------------------------------------------------------------ */
+
+@mixin border-radius($radius) {
+  -webkit-border-radius: $radius;
+     -moz-border-radius: $radius;
+      -ms-border-radius: $radius;
+          border-radius: $radius
+}
+
+/* ------------------------------------------------------------------------------ *\
+   TRANSITION
+\* ------------------------------------------------------------------------------ */
+@mixin transition( $prop: all, $dur: 1s, $time_func: ease, $del: 0s ) {
+   -webkit-transition: $prop $dur $time_func $del;
+      -moz-transition: $prop $dur $time_func $del;
+       -ms-transition: $prop $dur $time_func $del;
+        -o-transition: $prop $dur $time_func $del;
+           transition: $prop $dur $time_func $del;
+}
+
+/* ------------------------------------------------------------------------------ *\
+   BOX SHADOW
+\* ------------------------------------------------------------------------------ */
+@mixin box-shadow( $horizontal, $vertical, $blur, $spread, $color ) {
+   -webkit-box-shadow: $horizontal $vertical $blur $spread $color;
+      -moz-box-shadow: $horizontal $vertical $blur $spread $color;
+       -ms-box-shadow: $horizontal $vertical $blur $spread $color;
+        -o-box-shadow: $horizontal $vertical $blur $spread $color;
+           box-shadow: $horizontal $vertical $blur $spread $color;
+}
+
+/* ------------------------------------------------------------------------------ *\
+   LINEAR GRADIENT
+
+   Author: Dan Cederholm
+\* ------------------------------------------------------------------------------ */
+@mixin linear-gradient( $from, $to ) {
+   /* Fallback for sad browsers */
+   background-color: $to;
+
+   /* Mozilla Firefox */
+   background-image: -moz-linear-gradient($from, $to);
+
+   /* Opera */
+   background-image: -o-linear-gradient($from, $to);
+
+   /* WebKit (Safari 4+, Chrome 1+) */
+   background-image:
+      -webkit-gradient(
+         linear, left top, left bottom, color-stop(0, $from), color-stop(1, $to)
+      );
+
+   /* WebKit (Chrome 11+) */
+   background-image: -webkit-linear-gradient($from, $to);
+
+   /* IE10 */
+   background-image: -ms-linear-gradient($from, $to);
+
+   /* W3C */
+   background-image: linear-gradient($from, $to);
+}

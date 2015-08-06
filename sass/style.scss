@@ -1,0 +1,82 @@
+@import '_base.scss';
+@import '_mixins.scss';
+
+$bg-color: white;
+$font1:'Fredoka One', cursive;
+$fontlarge: 3em;
+$font2: 'Nixie One', cursive;;
+$fontmedium: 2em;
+$fontsmall: 1.4em;
+
+html {
+  background: $bg-color;
+}
+
+.topleft {
+  font-family:$font1;
+  font-size: $fontlarge;
+  width: 59%;
+  margin-bottom: 40px;
+  line-height: 1.2em;
+  letter-spacing: 5px;
+  border: 1px solid black;
+  float: left;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+.topleft a:hover {
+  color: deeppink;
+}
+
+.list {
+  font-family:$font2;
+  font-size: $fontmedium;
+  line-height: 1.4em;
+  letter-spacing: 3px;
+  text-align: left;
+  width: 39%;
+  border: 1px solid black;
+  float: right;
+}
+
+.list a:hover {
+  color: deepskyblue;
+}
+
+.container {
+  margin: 20px 20px 0 0;
+  border: 5px solid #333;
+  overflow: auto
+}
+
+.left {
+  float: left;
+  width: 40%;
+}
+
+.right {
+  float: right;
+  width: 40%;
+}
+
+h1 {
+  font-family: $font1;
+  font-size: $fontmedium;
+}
+
+p {
+  font-family:$font2;
+  font-size: $fontsmall;
+  letter-spacing: 2px;
+  text-align: left;
+}
+
+img {
+  display: block;
+}
+
+
