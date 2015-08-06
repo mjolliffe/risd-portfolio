@@ -1,5 +1,8 @@
 @import '_base.scss';
 @import '_mixins.scss';
+@import "compass/css3";
+@import url(http://www.markmurray.co/codepen/entypostyle.css);
+
 
 $bg-color: white;
 $font1:'Fredoka One', cursive;
@@ -19,7 +22,6 @@ body {
 }
 
 li {
-  margin: 20px auto;
   padding: 50px 50px 20px;
   font-family:$font2;
   font-size: $fontmedium;
@@ -35,12 +37,12 @@ em {
   font-family: $font1;
   font-size: $fontlarge;
   line-height: 1.4em;
-  border-bottom: none;
 }
 
 .list
 {
   padding-top: 85px;
+  background-color: white;
 }
 
 li a {
@@ -78,7 +80,7 @@ div {
   padding: 20px;
   border: 5px solid #f4d916;
   overflow: scroll;
-  width: 400px;
+  width: 520px;
   float: left;
 }
 
@@ -87,7 +89,7 @@ div {
   padding: 20px;
   border: 5px solid rgba(42, 126, 187, 0.94);
   overflow: scroll;
-  width: 400px;
+  width: 500px;
   float: left;
 }
 
@@ -107,12 +109,14 @@ div {
   overflow: scroll;
   width: 500px;
   float: left;
+  clear: left;
 }
 
 h1 {
   font-family: $font1;
   font-size: $fontmedium;
   letter-spacing: 2px;
+  padding-top: 20px;
 }
 
 p {
@@ -130,3 +134,33 @@ img {
   padding: 0px 20px 20px 0px;
   width: 100%;
 }
+
+strong {
+  font-family: $font1;
+  font-size: $fontlarge;
+  line-height: 3em;
+  padding-left: 50px;
+  color: #42c1ed;
+}
+
+h2{
+  font-family:$font2;
+  font-size: $fontmedium;
+  letter-spacing: 2px;
+  line-height:1.3em;
+  text-align: left;
+  padding: 20px 50px;
+}
+
+span {
+  padding-top: 100px;
+}
+ /*
+.enlarge {
+  transition: all .2s ease-in-out;
+}
+
+.enlarge:hover {
+  transform: scale(4.0);
+}
+ */
