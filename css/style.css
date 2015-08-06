@@ -70,9 +70,15 @@ html {
   background: white;
 }
 
+body {
+  margin: 0 auto;
+  width: 80%;
+  overflow: auto;
+}
+
 li {
   margin: 50px auto;
-  padding: 50px 80px;
+  padding: 50px 50px;
   font-family: "Nixie One", cursive;
   font-size: 2em;
   float: left;
@@ -86,7 +92,6 @@ li:first-of-type {
   font-family: "Fredoka One", cursive;
   font-size: 2.5em;
   width: 600px;
-  padding: 30px 80px;
   line-height: 1.6em;
   border-bottom: none;
 }
@@ -100,6 +105,25 @@ a:hover {
   color: deeppink;
 }
 
+/*
+.divmain, .divaside {
+  float: left;
+  border: 1px solid black;
+  height: 300px;
+}
+
+div {
+  > .divmain {
+    width: 62%;
+  }
+  > .divaside {
+    width: 38%;
+  }
+}
+div {
+  overflow: auto;
+}
+*/
 .container {
   margin: 50px;
   padding: 20px;

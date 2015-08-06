@@ -12,9 +12,15 @@ html {
   background: $bg-color;
 }
 
+body {
+  margin: 0 auto;
+  width: 80%;
+  overflow: auto;
+}
+
 li {
   margin: 50px auto;
-  padding: 50px 80px;
+  padding: 50px 50px;
   font-family:$font2;
   font-size: $fontmedium;
   float: left;
@@ -28,7 +34,6 @@ li:first-of-type {
   font-family: $font1;
   font-size: $fontlarge;
   width: 600px;
-  padding: 30px 80px;
   line-height: 1.6em;
   border-bottom: none;
 }
@@ -41,6 +46,26 @@ a {
 a:hover {
   color: deeppink;
 }
+
+/*
+.divmain, .divaside {
+  float: left;
+  border: 1px solid black;
+  height: 300px;
+}
+
+div {
+  > .divmain {
+    width: 62%;
+  }
+  > .divaside {
+    width: 38%;
+  }
+}
+div {
+  overflow: auto;
+}
+*/
 
 .container {
    margin: 50px;
