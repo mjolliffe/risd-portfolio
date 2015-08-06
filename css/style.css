@@ -70,13 +70,21 @@ html {
   background: white;
 }
 
-.topleft {
+li {
+  margin: 0 auto;
+  padding: 30px 80px;
+  font-family: "Nixie One", cursive;
+  font-size: 2em;
+  float: left;
+  letter-spacing: 5px;
+  line-height: 1.8em;
+  display: block;
+}
+
+li:first-of-type {
   font-family: "Fredoka One", cursive;
   font-size: 2.5em;
-  width: 59%;
-  margin-bottom: 40px;
-  line-height: 1.2em;
-  letter-spacing: 5px;
+  width: 600px;
 }
 
 a {
@@ -84,21 +92,8 @@ a {
   text-decoration: none;
 }
 
-.topleft a:hover {
+a:hover {
   color: deeppink;
-}
-
-.list {
-  font-family: "Nixie One", cursive;
-  font-size: 2em;
-  line-height: 1.4em;
-  letter-spacing: 3px;
-  text-align: left;
-  width: 39%;
-}
-
-.list a:hover {
-  color: deepskyblue;
 }
 
 .container {
