@@ -71,8 +71,8 @@ html {
 }
 
 li {
-  margin: 0 auto;
-  padding: 30px 80px;
+  margin: 50px auto;
+  padding: 50px 80px;
   font-family: "Nixie One", cursive;
   font-size: 2em;
   float: left;
@@ -85,6 +85,8 @@ li:first-of-type {
   font-family: "Fredoka One", cursive;
   font-size: 2.5em;
   width: 600px;
+  padding: 30px 80px;
+  line-height: 1.6em;
 }
 
 a {
@@ -97,21 +99,61 @@ a:hover {
 }
 
 .container {
-  margin: 20px;
-  border: 5px solid #333;
-  overflow: auto;
+  margin: 50px;
+  padding: 20px;
+  border: 5px solid rgba(42, 126, 187, 0.94);
+  overflow: scroll;
+  width: 400px;
+  float: left;
 }
 
+.container2 {
+  margin: 50px;
+  padding: 20px;
+  border: 5px solid green;
+  overflow: scroll;
+  width: 300px;
+  float: left;
+}
+
+.container3 {
+  margin: 50px;
+  padding: 20px;
+  border: 5px solid #f4d916;
+  overflow: scroll;
+  width: 700px;
+  float: left;
+}
+
+.container4 {
+  margin: 50px;
+  padding: 20px;
+  border: 5px solid #ed6dd2;
+  overflow: scroll;
+  width: 500px;
+  float: left;
+}
+
+.container5 {
+  margin: 50px;
+  padding: 20px;
+  border: 5px solid #f4d916;
+  overflow: scroll;
+  width: 400px;
+  float: left;
+}
+
+/*
 .left {
   float: left;
-  width: 40%;
+  width: 600px;
 }
 
 .right {
   float: right;
-  width: 40%;
+  width: 600px;
 }
-
+*/
 h1 {
   font-family: "Fredoka One", cursive;
   font-size: 2em;
@@ -121,9 +163,13 @@ p {
   font-family: "Nixie One", cursive;
   font-size: 1.4em;
   letter-spacing: 2px;
+  line-height: 1.3em;
   text-align: left;
+  padding-top: 10px;
 }
 
 img {
   display: block;
+  alignment: center;
+  padding: 0px 20px 20px 0px;
 }
