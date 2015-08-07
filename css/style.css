@@ -121,7 +121,7 @@ div {
 }
 
 .beer {
-  margin: 0px 40px 0px 0px;
+  margin: 0px 91px 0px 0px;
   padding: 20px;
   border: 5px solid green;
   overflow: scroll;
@@ -139,7 +139,7 @@ div {
 }
 
 .mishima {
-  margin: 40px 40px 0px 0px;
+  margin: 40px 91px 0px 0px;
   padding: 20px;
   border: 5px solid rgba(42, 126, 187, 0.94);
   overflow: scroll;
