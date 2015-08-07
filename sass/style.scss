@@ -49,6 +49,9 @@ li a {
 
 li a:hover {
   color: deeppink;
+  em {
+    color: #42c1ed;
+  }
 }
 
 .position {
@@ -64,7 +67,7 @@ div {
 }
 
 .beer {
-  margin: 0px 91px 0px 0px;
+  margin: 0px 90px 0px 0px;
   padding: 20px;
   border: 5px solid green;
   overflow: scroll;
@@ -82,7 +85,7 @@ div {
 }
 
 .mishima {
-  margin: 40px 91px 0px 0px;
+  margin: 0px 90px 0px 0px;
   padding: 20px;
   border: 5px solid rgba(42, 126, 187, 0.94);
   overflow: scroll;
@@ -100,13 +103,22 @@ div {
 }
 
 .boobs {
-  margin: 40px 40px 0px 0px;
+  margin: 40px 90px 0px 0px;
   padding: 20px;
   border: 5px solid #ed6dd2;
   overflow: scroll;
-  width: 500px;
+  width: 580px;
   float: left;
   clear: left;
+}
+
+.paint {
+  margin: 0px 40px 0px 0px;
+  padding: 20px;
+  border: 5px solid green;
+  overflow: scroll;
+  width: 440px;
+  float: left;
 }
 
 h1 {
@@ -166,6 +178,19 @@ i {
 #home a {
   color: deeppink;
   text-decoration: none;
+}
+
+#me {
+  width: 200px;
+  float: right;
+  margin: 50px;
+  padding: 50px;
+  border-radius: 30%;
+}
+
+b {
+  color: deeppink;
+  font-size: 1.3em;
 }
  /*
 .enlarge {
