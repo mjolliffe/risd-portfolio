@@ -1,8 +1,5 @@
 @import '_base.scss';
 @import '_mixins.scss';
-@import "compass/css3";
-@import url(http://www.markmurray.co/codepen/entypostyle.css);
-
 
 $bg-color: white;
 $font1:'Fredoka One', cursive;
@@ -154,6 +151,21 @@ h2{
 
 span {
   padding-top: 100px;
+}
+
+i {
+  color: deeppink;
+  padding-left: 50px;
+}
+
+#home {
+  font-size: $fontlarge;
+  text-decoration: none;
+}
+
+#home a {
+  color: deeppink;
+  text-decoration: none;
 }
  /*
 .enlarge {
