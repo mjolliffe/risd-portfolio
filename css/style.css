@@ -73,11 +73,10 @@ html {
 body {
   margin: 0 auto;
   width: 95%;
-  overflow: auto;
 }
 
 li {
-  padding: 50px 50px 30px;
+  padding: 0px 50px 30px;
   font-family: "Nixie One", cursive;
   font-size: 1.4em;
   float: left;
@@ -99,6 +98,11 @@ em {
   background-color: white;
 }
 
+.mainlist {
+  padding-top: 88px;
+  padding-bottom: 30px;
+}
+
 li a {
   color: black;
   text-decoration: none;
@@ -117,10 +121,6 @@ li a:hover em {
 
 main {
   padding-top: 220px;
-}
-
-div {
-  overflow: auto;
 }
 
 .beer {
@@ -257,9 +257,14 @@ footer {
   padding: 25px 50px;
   color: #42c1ed;
   letter-spacing: 2px;
+  clear: left;
 }
 
 footer a {
   text-decoration: none;
   color: #42c1ed;
+}
+
+#workfooter {
+  padding: 25px 0px;
 }

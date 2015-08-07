@@ -15,11 +15,10 @@ html {
 body {
   margin: 0 auto;
   width: 95%;
-  overflow: auto;
 }
 
 li {
-  padding: 50px 50px 30px;
+  padding: 0px 50px 30px;
   font-family:$font2;
   font-size: $fontmedium;
   float: left;
@@ -36,10 +35,14 @@ em {
   line-height: 1.2em;
 }
 
-.list
-{
+.list {
   padding-top: 44px;
   background-color: white;
+}
+
+.mainlist {
+  padding-top: 88px;
+  padding-bottom: 30px;
 }
 
 li a {
@@ -60,10 +63,6 @@ li a:hover {
 
 main {
   padding-top: 220px;
-}
-
-div {
-  overflow: auto;
 }
 
 .beer {
@@ -200,9 +199,14 @@ footer {
   padding: 25px 50px;
   color: #42c1ed;
   letter-spacing: 2px;
+  clear: left;
 }
 
 footer a {
   text-decoration: none;
   color: #42c1ed;
+}
+
+#workfooter {
+  padding: 25px 0px;
 }
