@@ -77,9 +77,9 @@ body {
 }
 
 li {
-  padding: 50px 50px 20px;
+  padding: 50px 50px 30px;
   font-family: "Nixie One", cursive;
-  font-size: 2em;
+  font-size: 1.4em;
   float: left;
   letter-spacing: 5px;
   line-height: 1.8em;
@@ -90,12 +90,12 @@ li {
 
 em {
   font-family: "Fredoka One", cursive;
-  font-size: 1.6em;
-  line-height: 1.4em;
+  font-size: 1.4em;
+  line-height: 1.2em;
 }
 
 .list {
-  padding-top: 85px;
+  padding-top: 44px;
   background-color: white;
 }
 
@@ -113,7 +113,7 @@ li a:hover {
 }
 
 main {
-  padding-top: 250px;
+  padding-top: 220px;
 }
 
 div {
@@ -121,43 +121,43 @@ div {
 }
 
 .beer {
-  margin: 60px 40px 0px 0px;
+  margin: 0px 40px 0px 0px;
   padding: 20px;
   border: 5px solid green;
   overflow: scroll;
-  width: 900px;
+  width: 600px;
   float: left;
 }
 
 .create {
-  margin: 60px 40px 0px 0px;
+  margin: 0px 40px 0px 0px;
   padding: 20px;
   border: 5px solid #f4d916;
   overflow: scroll;
-  width: 520px;
+  width: 420px;
   float: left;
 }
 
 .mishima {
-  margin: 60px 40px 0px 0px;
+  margin: 40px 40px 0px 0px;
   padding: 20px;
   border: 5px solid rgba(42, 126, 187, 0.94);
   overflow: scroll;
-  width: 500px;
+  width: 400px;
   float: left;
 }
 
 .design {
-  margin: 60px 40px 0px 0px;
+  margin: 40px 40px 0px 0px;
   padding: 20px;
   border: 5px solid #d9001a;
   overflow: scroll;
-  width: 700px;
+  width: 620px;
   float: left;
 }
 
 .boobs {
-  margin: 60px 40px 0px 0px;
+  margin: 40px 40px 0px 0px;
   padding: 20px;
   border: 5px solid #ed6dd2;
   overflow: scroll;
@@ -168,7 +168,7 @@ div {
 
 h1 {
   font-family: "Fredoka One", cursive;
-  font-size: 2em;
+  font-size: 1.4em;
   letter-spacing: 2px;
   padding-top: 20px;
 }
@@ -191,7 +191,7 @@ img {
 
 strong {
   font-family: "Fredoka One", cursive;
-  font-size: 1.6em;
+  font-size: 1.4em;
   line-height: 3em;
   padding-left: 50px;
   color: #42c1ed;
@@ -199,7 +199,7 @@ strong {
 
 h2 {
   font-family: "Nixie One", cursive;
-  font-size: 2em;
+  font-size: 1.4em;
   letter-spacing: 2px;
   line-height: 1.3em;
   text-align: left;
@@ -216,7 +216,7 @@ i {
 }
 
 #home {
-  font-size: 1.6em;
+  font-size: 2.7em;
   text-decoration: none;
 }
 
